@@ -1,0 +1,81 @@
+<!-- Made by Uplakshya Vishwakarma -->
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+    <title>Good Will Read - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #page-title{
+            text-align: left;
+        }
+
+        .data {
+            width: 300px;
+            margin: 5px 0px;
+            display: inline-block;
+            border: 2px solid #d0cecc;
+            border-radius: 10px;
+            border-bottom-color: green;
+            background-color: #dcdfde;
+        }
+
+        .contact-form {
+            background-color: #f6f8f7;
+            color: rgb(74, 67, 67);
+            width: 100%;
+        }
+
+        .submit{
+            width: 100px !important;
+            padding: 8px;
+            margin: 10px 78px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <a href="index.html"><video src="LOGO2.mp4" class="logo" autoplay loop></video></a>
+            <h1><a href="index.html">Good Will Read</a></h1><br>
+            <h4>Best online book store...</h4>
+        </header>
+
+        <div class="contact-form main-content">
+            <h1 id="page-title">Contact Us</h1><br>
+            <p style="font-size: 18px; line-height: 180%; width: 50%;">
+                Hey there! Thanks for visiting. Feel free to contact us and drop your thoughts about our services below, We’d love to hear from you.
+            </p><br><br>
+            <form action="">
+                <label for="name">Name:</label><br>
+                <input type="text" name="myName" id="name" class="data" required>
+                <br>
+                <label for="email">Email id:</label><br>
+                <input type="email" name="myEmail" id="email" class="data" required>
+                <br>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" class="data" cols="30" rows="10" required></textarea>
+                <br>
+                <input type="submit" value="SEND" class="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

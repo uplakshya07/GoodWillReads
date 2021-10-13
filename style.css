@@ -1,0 +1,91 @@
+/*  Made by Uplakshya Vishwakarma  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 15%;
+    height: 100%;
+    background-color: #1C202B;
+    border: 1px solid #c1c1c1;
+    position: fixed;
+}
+
+nav li {
+    border-bottom: 1px solid #555;
+}
+
+nav li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li a.active {
+    border: 1px dotted #fff;
+    color: rgb(0, 187, 115);
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.container {
+    margin-left: 15%;
+    height: 100%;
+    width: 85%;
+}
+
+header {
+    background-color: #eee2af;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+header h1 a:hover {
+    text-shadow: black;
+    color: #007185;
+    transition-duration: 0.4s;
+}
+
+header h4 {
+    color: navy;
+    font-style: italic;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#page-title{
+    color: #3d3c48;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-content {
+    padding: 80px 100px;
+}
+
+.main-content p{
+    font-size: 17px;
+}
